@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" preserve-order="true" >
+    <test name="Smoke" >
+        <classes>
+            <class name="tests.LoginTest" />
+            <class name="tests.TeamCreationTest"/>
+            <class name="tests.BoardCreationTest"/>
+            <class name="tests.ListCreationTest"/>
+            <class name="tests.DeleteBoardTest"/>
+            <class name="tests.DeleteTeamTest"/>
+            <class name="tests.LogOutTest"/>
+        </classes>
+    </test>
+</suite>

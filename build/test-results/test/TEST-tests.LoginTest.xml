@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-16T11:46:45" hostname="VIGOLE" time="20.457">
+  <properties/>
+  <testcase name="testLogin" classname="tests.LoginTest" time="20.457"/>
+  <system-out><![CDATA[search By.xpath: //span[@title='Vitaly Blazhko (vitalyblazhko)']
+!!!---------ERROR----------!!!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@title='Vitaly Blazhko (vitalyblazhko)']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIGOLE', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Vitaly\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d6ce622abebbdf0c43bc5b5759b83d97
+*** Element info: {Using=xpath, value=//span[@title='Vitaly Blazhko (vitalyblazhko)']}
+!!!------------------------!!!
+13:46:45.917 [Test worker] INFO  tests.LoginTest - Start test testLogin
+search By.xpath: //*[contains(text(),'Log in')]
+By.xpath: //*[contains(text(),'Log in')] found
+search By.cssSelector: #user
+By.cssSelector: #user found
+search By.cssSelector: #user
+By.cssSelector: #user found
+search By.cssSelector: #user
+By.cssSelector: #user found
+search By.xpath: //*[@id='login']
+By.xpath: //*[@id='login'] found
+search By.cssSelector: #password
+By.cssSelector: #password found
+search By.cssSelector: #password
+By.cssSelector: #password found
+search By.cssSelector: #password
+By.cssSelector: #password found
+search By.cssSelector: #login-submit
+By.cssSelector: #login-submit found
+search By.xpath: //span[@title='Vitaly Blazhko (vitalyblazhko)']
+By.xpath: //span[@title='Vitaly Blazhko (vitalyblazhko)'] found
+13:47:06.357 [Test worker] INFO  tests.LoginTest - Stop test testLogin
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

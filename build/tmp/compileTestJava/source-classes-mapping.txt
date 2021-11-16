@@ -1,0 +1,38 @@
+manager/NavigationHelper.java
+ manager.NavigationHelper
+dataProvider/StaticProvider.java
+ dataProvider.StaticProvider
+tests/LogOutTest.java
+ tests.LogOutTest
+tests/ListCreationTest.java
+ tests.ListCreationTest
+tests/DeleteTeamTest.java
+ tests.DeleteTeamTest
+manager/TeamHelper.java
+ manager.TeamHelper
+models/Team.java
+ models.Team
+manager/ApplicationManager.java
+ manager.ApplicationManager
+tests/DeleteBoardTest.java
+ tests.DeleteBoardTest
+manager/HelperBase.java
+ manager.HelperBase
+manager/ListHelper.java
+ manager.ListHelper
+manager/BoardHelper.java
+ manager.BoardHelper
+manager/SessionHelper.java
+ manager.SessionHelper
+manager/TLogger.java
+ manager.TLogger
+tests/BoardCreationTest.java
+ tests.BoardCreationTest
+tests/TeamCreationTest.java
+ tests.TeamCreationTest
+manager/TListener.java
+ manager.TListener
+tests/LoginTest.java
+ tests.LoginTest
+tests/TestBase.java
+ tests.TestBase
